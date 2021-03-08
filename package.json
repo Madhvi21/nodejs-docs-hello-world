@@ -8,4 +8,13 @@
     "scripts": {
         "start": "node index.js"
     }
+    
+    {
+  "type": "Microsoft.Web/sites",
+  "apiVersion": "2015-08-01",
+  "dependsOn": [
+    "[variables('hostingPlanName')]"
+  ],
+  ...
+}
 }
